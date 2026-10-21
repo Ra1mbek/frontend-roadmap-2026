@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeStart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><span>Code</span>Start</a>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">О курсе</a>
+            <a href="#" class="reg-kurs">Записаться</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="block-text">
+            <h1>Начни изучать программирование с нуля</h1>
+            <p>Простой курс для тех, кто хочет сделать первые шаги в веб-разработке.</p>
+            <button type="submit">Начать обучение</button>
+        </div>
+        <div class="block-img">
+            <img src="hero-laptop.png" alt="">
+        </div>
+    </div>
+
+    <section class="benefits">
+        <h2>Почему этот курс?</h2>
+        <div class="benefits-list">
+            <div class="benefit">
+                <img src="icon-book.svg" alt="" width="80" height="80">
+                <h3>Простой курс</h3>
+                <p>Объясняем сложные вещи понятным языком.</p>
+            </div>
+            <div class="benefit">
+                <img src="icon-code.svg" alt="" width="80" height="80">
+                <h3>Практика</h3>
+                <p>После каждого урока ты выполняешь небольшое задание.</p>
+            </div>
+            <div class="benefit">
+                <img src="icon-chat.svg" alt="" width="80" height="80">
+                <h3>Поддержка</h3>
+                <p>После каждого урока ты выполняешь небольшое задание.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="course">
+        <h2>Записаться на курс</h2>
+
+        <form class="course-form">
+            <div class="form-field">
+                <label for="username">Имя</label>
+                <input type="text" name="username" id="username"
+                    placeholder="Введите ваше имя" required>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"
+                    placeholder="Введите ваш email" required>
+            </div>
+
+            <div class="form-field">
+                <label for="course">Направление</label>
+                <select name="course" id="course" required>
+                    <option value="" selected disabled>Выберите направление</option>
+                    <option value="frontend">Frontend developer</option>
+                    <option value="gamedev">GameDev</option>
+                    <option value="backend">Backend developer</option>
+                </select>
+            </div>
+
+            <div class="agreement">
+                <input type="checkbox" name="agreement" id="agreement"
+                    aria-labelledby="agreement-text" required>
+
+                <span id="agreement-text">
+                    <label for="agreement">Я согласен с</label>
+                <!-- Замени # на адрес страницы с правилами -->
+                    <a href="#">правилами</a>
+                </span>
+            </div>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>

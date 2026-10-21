@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Символ кода</title>
+  <circle cx="40" cy="40" r="40" fill="#DEF5E9"/>
+  <g fill="none" stroke="#16A34A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 31L23 40L32 49M48 31L57 40L48 49M44 26L36 54"/>
+  </g>
+</svg>

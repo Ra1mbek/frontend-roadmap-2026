@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+header > a > span {
+    color: black;
+}
+
+header > a {
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+.reg-kurs {
+    color: blue;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 32px;
+    background-color: #EEF6FF;
+}
+
+.block-text {
+    font-size: 20px;
+    max-width: 450px;
+}
+
+.hero button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid white;
+}
+
+.benefits>h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.course {
+    background-color: #F7F9FC;
+    padding: 49px 16px;
+}
+
+.course>h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.course-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-field>input {
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.form-field select {
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.course-form button {
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 8px;
+    border: 1px solid white;
+}

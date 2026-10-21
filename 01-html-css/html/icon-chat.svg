@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Сообщение</title>
+  <circle cx="40" cy="40" r="40" fill="#ECE3FA"/>
+  <g fill="none" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 26H52A5 5 0 0 1 57 31V46A5 5 0 0 1 52 51H34L24 57V31A5 5 0 0 1 29 26Z"/>
+  </g>
+</svg>

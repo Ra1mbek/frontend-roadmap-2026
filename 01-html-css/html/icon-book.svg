@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Открытая книга</title>
+  <circle cx="40" cy="40" r="40" fill="#E1ECFF"/>
+  <g fill="none" stroke="#155EEF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 29C35 25 29 25 24 26V53C29 51 35 52 40 55C45 52 51 51 56 53V26C51 25 45 25 40 29Z"/>
+    <path d="M40 29V55"/>
+  </g>
+</svg>
